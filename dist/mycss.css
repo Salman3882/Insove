@@ -1,0 +1,37 @@
+.p-picture{
+    background-image: url(../assets/icons/testimonials/quote-left.svg);
+    background-repeat: no-repeat;
+}
+.p-picture::after{
+    content: '';
+    background-image: url(../assets/icons/testimonials/quote-right.svg);
+    background-repeat: no-repeat;
+    contain: content;
+    bottom: 10px;
+    display: inline-block;
+    top: 0;
+    height: 2.5rem;
+    width: 2.5rem;
+}
+
+/* scrollbar */
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #1cbccf;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background:#18abbc;
+  }
