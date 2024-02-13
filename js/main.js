@@ -59,9 +59,9 @@ faqItem.forEach((item) => {
 const sr = ScrollReveal({
     origin : 'bottom',
     distance: '60px',
-    duration: 2000,
+    duration: 1400,
     delay:500,
-    reset:true, //resets aniamtion
+    // reset:true, //resets aniamtion
 })
 //hero
 sr.reveal('.hero__text', {origin:'top'})
